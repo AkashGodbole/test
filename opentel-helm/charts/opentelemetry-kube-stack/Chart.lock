@@ -1,0 +1,15 @@
+dependencies:
+- name: crds
+  repository: ""
+  version: 0.0.0
+- name: opentelemetry-operator
+  repository: https://open-telemetry.github.io/opentelemetry-helm-charts
+  version: 0.64.4
+- name: kube-state-metrics
+  repository: https://prometheus-community.github.io/helm-charts
+  version: 5.21.0
+- name: prometheus-node-exporter
+  repository: https://prometheus-community.github.io/helm-charts
+  version: 4.37.1
+digest: sha256:ac372e72d03aa25c67b52085f12067edb308bdaf566cb57e1ea7819d1d2c5a64
+generated: "2024-07-30T14:10:37.453347-04:00"
